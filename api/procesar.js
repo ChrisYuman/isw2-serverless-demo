@@ -5,7 +5,7 @@ export default function handler(req, res) {
     return res.status(500).json({ error: "error simulado" });
   }
 
-  // Necesitamos más de 20 líneas de lógica redundante
+  // Necesitamos más de 20 líneas de lógica redundantea
   let resultadoFinal = "";
   let longitudFinal = 0;
 
